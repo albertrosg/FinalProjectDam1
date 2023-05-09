@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" stylesheets="@../../styles/mainWindowStyle.css" prefHeight="199.0" prefWidth="406.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="finalprojectdam.controllers.ConfirmRemoveOwnerController">
+   <children>
+      <Button layoutX="327.0" layoutY="143.0" mnemonicParsing="false" onAction="#cancel" text="Cancelar" />
+      <Button styleClass="remove" layoutX="248.0" layoutY="143.0" mnemonicParsing="false" onAction="#removeOwner" text="Eliminar" />
+      <Label fx:id="lblRemoveMessage" layoutX="45.0" layoutY="83.0" prefHeight="17.0" prefWidth="332.0" />
+   </children>
+</AnchorPane>

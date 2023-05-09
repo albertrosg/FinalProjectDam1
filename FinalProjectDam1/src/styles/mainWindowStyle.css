@@ -1,0 +1,15 @@
+#top, #left {-fx-background-color: grey;}
+
+#imgIcon {-fx-background-image: url("../images/IconMainWindow.png")}
+
+Button{-fx-background-color: #4AE9F6;
+       -fx-font-size: 12px;
+       -fx-font-weight: bold;
+}
+
+.remove{-fx-background-color: red;}
+
+.error{-fx-text-fill: red;}
+
+
+
